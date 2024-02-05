@@ -30,4 +30,5 @@ D = [100, 400]
 
 
 fractal(A, B, C, D)
-x = int(input())
+
+window.mainloop()
