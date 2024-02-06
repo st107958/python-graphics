@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7db2245-5cdd-4fc1-9193-eb8079759d90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/recursive-moving/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive-visulisation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-visulisation/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamelevel/lvl1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/programming/python-graphics/recursive-moving",
+    "last_opened_file_path": "C:/programming/python-graphics/gamelevel",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,6 +121,7 @@
       <workItem from="1707055899216" duration="3753000" />
       <workItem from="1707060245316" duration="1029000" />
       <workItem from="1707063001882" duration="5132000" />
+      <workItem from="1707207493709" duration="1074000" />
     </task>
     <servers />
   </component>
