@@ -34,6 +34,8 @@ D = [100, 400]
 alpha_changing_velocity = 0.01
 alpha = 0.1
 deep = 50
+moving_flag = False
+moving_score = 10
 
 run = True
 while run:
@@ -45,6 +47,20 @@ while run:
         alpha += alpha_changing_velocity
     if keys[pg.K_LEFT]:
         alpha -= alpha_changing_velocity
+
+    if not moving_flag:
+        if keys[pg.K_SPACE]:
+            moving_flag = True
+    else:
+        if moving_score >= -10:
+            direction = 1
+            if moving_score < 0:
+                direction = -1
+            alpha = alpha + (direction//10)
+            moving_score -= 1
+        else:
+            moving_flag = False
+            moving_score = 10
 
     for event in pg.event.get():
         if event.type == pg.QUIT:
